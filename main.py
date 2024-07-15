@@ -2,6 +2,7 @@ import serial
 import time
 import re
 
+# Serial config
 ser = serial.Serial(
     port='COM7',
     baudrate=115200,
@@ -13,6 +14,8 @@ ser.reset_input_buffer()
 
 # Pattern to match the desired lines
 pattern = r'I \(\d+\) (BEFORE|AFTER): Binary: ([01]+)'
+
+# Files to write to
 file_before_init = open('binary_before.txt', 'w')
 file_after_init = open('binary_after.txt', 'w')
 
