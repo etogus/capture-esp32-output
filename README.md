@@ -34,10 +34,6 @@ You may need to modify the following parameters in the script:
 - `port`: Set this to match your device's COM port
 - `baudrate`: Adjust if your device uses a different baud rate
 
-## Output Format
-
-Each CSV file contains a single column named 'Binary', where each row is a binary string captured from the serial output.
-
 ## Note
 
 This script is designed to work with a specific output format. Ensure your device outputs data in the expected format:<br>
