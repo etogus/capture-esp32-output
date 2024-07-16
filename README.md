@@ -1,4 +1,4 @@
-# Serial Data Logger for Binary Output
+# Serial Data Logger
 
 This Python script captures and logs data from a serial port.<br>
 
